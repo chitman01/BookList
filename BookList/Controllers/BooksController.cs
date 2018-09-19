@@ -16,9 +16,23 @@ namespace BookList.Controllers
             _db = db;
         }
 
+        // return list for index
         public IActionResult Index()
         {
             return View(_db.Books.ToList());
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create(Book book)
+        {
+            if(ModelState.IsValid)
+            {
+                _db.Add(book);
+                await _db.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+            return View(book);
         }
 
         //Get : Book/Create
