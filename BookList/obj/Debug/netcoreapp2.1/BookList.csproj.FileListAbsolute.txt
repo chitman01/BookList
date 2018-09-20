@@ -31,3 +31,7 @@ C:\Users\supaw\source\repos\BookList\BookList\obj\Debug\netcoreapp2.1\BookList.d
 C:\Users\supaw\source\repos\BookList\BookList\obj\Debug\netcoreapp2.1\BookList.pdb
 C:\Users\supaw\source\repos\BookList\BookList\obj\Debug\netcoreapp2.1\BookList.csproj.CopyComplete
 C:\Users\supaw\source\repos\BookList\BookList\obj\Debug\netcoreapp2.1\Razor\Views\Books\Index.g.cshtml.cs
+C:\Users\supaw\source\repos\BookList\BookList\obj\Debug\netcoreapp2.1\Razor\Views\Books\Create.g.cshtml.cs
+C:\Users\supaw\source\repos\BookList\BookList\obj\Debug\netcoreapp2.1\Razor\Views\Books\Details.g.cshtml.cs
+C:\Users\supaw\source\repos\BookList\BookList\obj\Debug\netcoreapp2.1\Razor\Views\Books\Delete.g.cshtml.cs
+C:\Users\supaw\source\repos\BookList\BookList\obj\Debug\netcoreapp2.1\Razor\Views\Books\Edit.g.cshtml.cs
